@@ -1,0 +1,222 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Dec 25 20:08:54 2024
+# Process ID         : 19672
+# Current directory  : E:/AV/vivado/vivado/gates
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent21724 E:\AV\vivado\vivado\gates\gates.xpr
+# Log file           : E:/AV/vivado/vivado/gates/vivado.log
+# Journal file       : E:/AV/vivado/vivado/gates\vivado.jou
+# Running On         : DESKTOP-FMOLA0K
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26120
+# Processor Detail   : Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+# CPU Frequency      : 2904 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 6
+# Host memory        : 8523 MB
+# Swap memory        : 15032 MB
+# Total Virtual      : 23555 MB
+# Available Virtual  : 7223 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/AV/vivado/vivado/gates/gates.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/AV/vivado/vivado/gates/gates.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Vivado/2024.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'stimuli'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/AV/vivado/vivado/gates/gates.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'F:/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'stimuli' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/AV/vivado/vivado/gates/gates.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj stimuli_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/AV/vivado/vivado/gates/gates.srcs/sim_1/new/stimuli.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stimuli
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/AV/vivado/vivado/gates/gates.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot stimuli_behav xil_defaultlib.stimuli xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: F:/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot stimuli_behav xil_defaultlib.stimuli xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.logic_gates
+Compiling module xil_defaultlib.stimuli
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot stimuli_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/AV/vivado/vivado/gates/gates.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "stimuli_behav -key {Behavioral:sim_1:Functional:stimuli} -tclbatch {stimuli.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source stimuli.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 40 ns : File "E:/AV/vivado/vivado/gates/gates.srcs/sim_1/new/stimuli.v" Line 15
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'stimuli_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1197.578 ; gain = 8.617
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'stimuli'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/AV/vivado/vivado/gates/gates.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'F:/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'stimuli' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/AV/vivado/vivado/gates/gates.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj stimuli_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/AV/vivado/vivado/gates/gates.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot stimuli_behav xil_defaultlib.stimuli xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: F:/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot stimuli_behav xil_defaultlib.stimuli xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/AV/vivado/vivado/gates/gates.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "stimuli_behav -key {Behavioral:sim_1:Functional:stimuli} -tclbatch {stimuli.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source stimuli.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 40 ns : File "E:/AV/vivado/vivado/gates/gates.srcs/sim_1/new/stimuli.v" Line 15
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'stimuli_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2238.078 ; gain = 0.000
+update_compile_order -fileset sim_1
+file mkdir E:/AV/vivado/vivado/gates/gates.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open E:/AV/vivado/vivado/gates/gates.srcs/sim_1/new/tb_gates.v w ]
+add_files -fileset sim_1 E:/AV/vivado/vivado/gates/gates.srcs/sim_1/new/tb_gates.v
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\AV\vivado\vivado\gates\gates.srcs\sources_1\new\logic_gates.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\AV\vivado\vivado\gates\gates.srcs\sim_1\new\tb_gates.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\AV\vivado\vivado\gates\gates.srcs\sources_1\new\logic_gates.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\AV\vivado\vivado\gates\gates.srcs\sources_1\new\logic_gates.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\AV\vivado\vivado\gates\gates.srcs\sources_1\new\logic_gates.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\AV\vivado\vivado\gates\gates.srcs\sim_1\new\tb_gates.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\AV\vivado\vivado\gates\gates.srcs\sim_1\new\tb_gates.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\AV\vivado\vivado\gates\gates.srcs\sim_1\new\tb_gates.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'stimuli'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/AV/vivado/vivado/gates/gates.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'F:/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'stimuli' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/AV/vivado/vivado/gates/gates.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj stimuli_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/AV/vivado/vivado/gates/gates.srcs/sim_1/new/tb_gates.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stimuli
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/AV/vivado/vivado/gates/gates.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot stimuli_behav xil_defaultlib.stimuli xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: F:/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot stimuli_behav xil_defaultlib.stimuli xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.logic_gates
+Compiling module xil_defaultlib.stimuli
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot stimuli_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/AV/vivado/vivado/gates/gates.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "stimuli_behav -key {Behavioral:sim_1:Functional:stimuli} -tclbatch {stimuli.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source stimuli.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 40 ns : File "E:/AV/vivado/vivado/gates/gates.srcs/sim_1/new/tb_gates.v" Line 15
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'stimuli_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 2248.727 ; gain = 0.000
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\AV\vivado\vivado\gates\gates.srcs\sources_1\new\logic_gates.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\AV\vivado\vivado\gates\gates.srcs\sim_1\new\tb_gates.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\AV\vivado\vivado\gates\gates.srcs\sim_1\new\tb_gates.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\AV\vivado\vivado\gates\gates.srcs\sim_1\new\tb_gates.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Dec 25 21:15:51 2024...
