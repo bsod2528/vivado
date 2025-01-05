@@ -2,6 +2,6 @@
 2020.2
 Nov  8 2024
 22:36:57
-E:/AV/vivado/vivado/gates/gates.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
-E:/AV/vivado/vivado/gates/gates.srcs/sim_1/new/tb_gates.v,1735138512,verilog,,,,stimuli,,,,,,,,
-E:/AV/vivado/vivado/gates/gates.srcs/sources_1/new/logic_gates.v,1735135816,verilog,,E:/AV/vivado/vivado/gates/gates.srcs/sim_1/new/tb_gates.v,,logic_gates,,,,,,,,
+C:/vivado/gates/gates.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/vivado/gates/gates.srcs/sim_1/new/testbench.v,1736048544,verilog,,,,testbench,,,,,,,,
+C:/vivado/gates/gates.srcs/sources_1/new/gates.v,1736048529,verilog,,C:/vivado/gates/gates.srcs/sim_1/new/testbench.v,,gates,,,,,,,,
