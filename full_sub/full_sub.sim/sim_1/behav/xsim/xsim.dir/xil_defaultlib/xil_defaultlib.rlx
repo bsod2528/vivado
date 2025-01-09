@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/vivado/full_sub/full_sub.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/vivado/full_sub/full_sub.srcs/sim_1/new/tb_fs_using_hs.v,1736393570,verilog,,,,tb_fs_using_hs,,,,,,,,
+C:/vivado/full_sub/full_sub.srcs/sources_1/new/fs_using_hs.v,1736394045,verilog,,C:/vivado/full_sub/full_sub.srcs/sources_1/new/half_sub.v,,fs_using_hs,,,,,,,,
+C:/vivado/full_sub/full_sub.srcs/sources_1/new/half_sub.v,1736393266,verilog,,C:/vivado/full_sub/full_sub.srcs/sim_1/new/tb_fs_using_hs.v,,half_sub,,,,,,,,
