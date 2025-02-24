@@ -20,7 +20,7 @@ module tb_mux_eight_one();
         .s_one(s_one),
         .s_two(s_two),
         .s_three(s_three),
-        .out(out)
+        .out(out)   
     );
     
     initial begin
