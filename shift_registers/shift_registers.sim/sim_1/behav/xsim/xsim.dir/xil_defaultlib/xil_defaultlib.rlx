@@ -1,0 +1,14 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/vivado/shift_registers/shift_registers.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/vivado/shift_registers/shift_registers.srcs/sim_1/new/tb_pipo_reg.v,1740702824,verilog,,,,tb_pipo_reg,,,,,,,,
+C:/vivado/shift_registers/shift_registers.srcs/sim_1/new/tb_piso_reg.v,1740705339,verilog,,,,tb_piso_reg,,,,,,,,
+C:/vivado/shift_registers/shift_registers.srcs/sim_1/new/tb_sipo_reg.v,1740675908,verilog,,,,tb_sipo_reg,,,,,,,,
+C:/vivado/shift_registers/shift_registers.srcs/sim_1/new/tb_siso_reg.v,1740673889,verilog,,,,tb_siso_reg,,,,,,,,
+C:/vivado/shift_registers/shift_registers.srcs/sources_1/new/d_ff.v,1740673229,verilog,,C:/vivado/shift_registers/shift_registers.srcs/sources_1/new/piso.v,,d_ff,,,,,,,,
+C:/vivado/shift_registers/shift_registers.srcs/sources_1/new/pipo.v,1740702984,verilog,,C:/vivado/shift_registers/shift_registers.srcs/sim_1/new/tb_pipo_reg.v,,pipo,,,,,,,,
+C:/vivado/shift_registers/shift_registers.srcs/sources_1/new/piso.v,1740705654,verilog,,C:/vivado/shift_registers/shift_registers.srcs/sim_1/new/tb_piso_reg.v,,piso,,,,,,,,
+C:/vivado/shift_registers/shift_registers.srcs/sources_1/new/sipo.v,1740675742,verilog,,C:/vivado/shift_registers/shift_registers.srcs/sim_1/new/tb_sipo_reg.v,,sipo,,,,,,,,
+C:/vivado/shift_registers/shift_registers.srcs/sources_1/new/siso.v,1740673644,verilog,,C:/vivado/shift_registers/shift_registers.srcs/sim_1/new/tb_siso_reg.v,,siso,,,,,,,,

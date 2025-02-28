@@ -5,7 +5,7 @@ Nov  8 2024
 C:/vivado/counters/counters.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
 C:/vivado/counters/counters.srcs/sim_1/new/tb_down_counter.v,1740536069,verilog,,,,tb_down_counter,,,,,,,,
 C:/vivado/counters/counters.srcs/sim_1/new/tb_up_counter.v,1740535166,verilog,,,,tb_up_counter,,,,,,,,
-C:/vivado/counters/counters.srcs/sim_1/new/tb_up_down_counter.v,1740574434,verilog,,,,tb_up_down_counter,,,,,,,,
+C:/vivado/counters/counters.srcs/sim_1/new/tb_up_down_counter.v,1740575819,verilog,,,,tb_up_down_counter,,,,,,,,
 C:/vivado/counters/counters.srcs/sources_1/new/down_counter.v,1740535917,verilog,,C:/vivado/counters/counters.srcs/sim_1/new/tb_down_counter.v,,down_counter,,,,,,,,
 C:/vivado/counters/counters.srcs/sources_1/new/up_counter.v,1740534275,verilog,,C:/vivado/counters/counters.srcs/sim_1/new/tb_up_counter.v,,up_counter,,,,,,,,
 C:/vivado/counters/counters.srcs/sources_1/new/up_down_counter.v,1740575750,verilog,,C:/vivado/counters/counters.srcs/sim_1/new/tb_up_down_counter.v,,up_down_counter,,,,,,,,
