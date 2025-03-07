@@ -1,9 +1,0 @@
-0.7
-2020.2
-Nov  8 2024
-22:36:57
-C:/vivado/decoder/decoder.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
-C:/vivado/decoder/decoder.srcs/sim_1/new/tb_dec_three_eight.v,1737572450,verilog,,,,tb_dec_three_eight,,,,,,,,
-C:/vivado/decoder/decoder.srcs/sim_1/new/tb_dec_two_four.v,1737571168,verilog,,,,tb_dec_two_four,,,,,,,,
-C:/vivado/decoder/decoder.srcs/sources_1/new/dec_three_eight.v,1737572007,verilog,,C:/vivado/decoder/decoder.srcs/sim_1/new/tb_dec_three_eight.v,,dec_three_eight,,,,,,,,
-C:/vivado/decoder/decoder.srcs/sources_1/new/dec_two_four.v,1737571057,verilog,,C:/vivado/decoder/decoder.srcs/sim_1/new/tb_dec_two_four.v,,dec_two_four,,,,,,,,
